@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/sociallayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#003e79"
+    tools:context=".activities.SocialIssueActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sc"
+    android:layout_marginTop="10dp"
+ >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/socitybtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/social_btn_height"
+            android:background="@drawable/society"/>
+        <Button
+            android:id="@+id/safemigrationbtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/social_btn_height"
+            android:background="@drawable/safemigration"/>
+
+        <Button
+            android:id="@+id/childbtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/social_btn_height"
+            android:background="@drawable/childprotection"/>
+
+        <Button
+            android:id="@+id/humanbtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/social_btn_height"
+            android:background="@drawable/humantrafficking"/>
+
+        <Button
+            android:id="@+id/genderbtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/social_btn_height"
+            android:background="@drawable/genderbasedviolence"/>
+
+        <Button
+            android:id="@+id/youthproblembtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/social_btn_height"
+            android:background="@drawable/youthproblem"/>
+
+        <Button
+            android:id="@+id/midlbtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/social_btn_height"
+            android:background="@drawable/midl"/>
+
+        <Button
+            android:id="@+id/srhrbtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/social_btn_height"
+            android:background="@drawable/srhr"/>
+        <Button
+            android:id="@+id/drugsbtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/social_btn_height"
+            android:background="@drawable/drugs"/>
+
+        <Button
+            android:id="@+id/communityhealthbtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/social_btn_height"
+            android:background="@drawable/communityhealth"/>
+
+        <Button
+            android:id="@+id/enviromnment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/social_btn_height"
+            android:background="@drawable/environment"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+</RelativeLayout>

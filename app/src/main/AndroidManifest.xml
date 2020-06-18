@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.raysofyouth">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Ray Of Youth                                                   "
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.MyFamilyActivity"
+                  android:label="My Family"
+                  android:parentActivityName=".activities.MyselfActiviy">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MyselfActiviy"/>
+        </activity>
+
+        <activity android:name=".activities.LifeSkillsActivity"
+                  android:label="Life Skills"
+                  android:parentActivityName=".activities.MyselfActiviy">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MyselfActiviy"/>
+
+        </activity>
+
+        <activity android:name=".activities.SelfAwarnesessActivity"
+                  android:label="Self-Awarnesess"
+                  android:parentActivityName=".activities.MyselfActiviy">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MyselfActiviy"/>
+        </activity>
+
+        <activity
+            android:name=".activities.LanguageActivity"
+            android:label="Languages" />
+        <activity
+            android:name=".activities.AseanCommunityActivity"
+            android:label="ASEAN Community"
+            android:parentActivityName=".activities.CommunityActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.CommunityActivity" />
+        </activity>
+        <activity
+            android:name=".activities.MyCommunityActivity"
+            android:label="My Community"
+            android:parentActivityName=".activities.CommunityActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.CommunityActivity" />
+        </activity>
+        <activity
+            android:name=".activities.ActiveCitizenShipActivity"
+            android:label="Active Citizenship Skill"
+            android:parentActivityName=".activities.LeaderShipActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.LeaderShipActivity" />
+        </activity>
+        <activity
+            android:name=".activities.LeaderShipSkill"
+            android:label="Leadership Skills"
+            android:parentActivityName=".activities.LeaderShipActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.LeaderShipActivity" />
+        </activity>
+        <activity
+            android:name=".activities.ExerciseActivity"
+            android:label="Exercises"
+            android:parentActivityName=".activities.SmartYouthActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.SmartYouthActivity" />
+        </activity>
+        <activity
+            android:name=".activities.ActivitymakerActivity"
+            android:label="Activite Maker"
+            android:parentActivityName=".activities.SmartYouthActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.SmartYouthActivity" />
+        </activity>
+        <activity
+            android:name=".activities.LeaderShipActivity"
+            android:label="LeaderShip"
+            android:parentActivityName=".activities.SmartYouthActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.SmartYouthActivity" />
+        </activity>
+        <activity
+            android:name=".activities.RightLawsActivity"
+            android:label="Rights/Laws"
+            android:parentActivityName=".activities.SmartYouthActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.SmartYouthActivity" />
+        </activity>
+        <activity
+            android:name=".activities.SocialIssueActivity"
+            android:label="Social Issue"
+            android:parentActivityName=".activities.SmartYouthActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.SmartYouthActivity" />
+        </activity>
+        <activity
+            android:name=".activities.CommunityActivity"
+            android:label="Community"
+            android:parentActivityName=".activities.SmartYouthActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.SmartYouthActivity" />
+        </activity>
+        <activity
+            android:name=".activities.MyselfActiviy"
+            android:label="Myself"
+            android:parentActivityName=".activities.SmartYouthActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.SmartYouthActivity" />
+        </activity>
+        <activity
+            android:name=".activities.SmartYouthActivity"
+            android:label="SMART Youth"
+            android:parentActivityName=".activities.MainPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainPage" />
+        </activity>
+        <activity android:name=".activities.AboutUsActivity" />
+        <activity android:name=".activities.MainPage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

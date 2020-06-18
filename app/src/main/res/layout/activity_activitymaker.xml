@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#003e79"
+    tools:context=".activities.ActivitymakerActivity">
+
+    <Button
+        android:id="@+id/facilitatorskillbtn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mainpage_btn_heights"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/facilitatorskill"/>
+
+    <Button
+        android:id="@+id/moduledevbtn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mainpage_btn_heights"
+        android:background="@drawable/moduledevelopment"/>
+
+    <Button
+        android:id="@+id/sampleactdesignbtn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mainpage_btn_heights"
+        android:background="@drawable/sampleactivitiesdesign"/>
+
+</LinearLayout>

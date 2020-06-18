@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#003e79"
+    tools:context=".activities.MainPage">
+    <include layout="@layout/toolbar"
+        android:id="@+id/tb"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@+id/tb">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/aboutusbtn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/mainpage_btn_heights"
+                android:background="@drawable/aboutusbtn"/>
+            <Button
+                android:id="@+id/smartyouthbtn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/mainpage_btn_heights"
+                android:background="@drawable/smartyouthbtn"/>
+            <Button
+                android:id="@+id/languagebtn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/mainpage_btn_heights"
+                android:background="@drawable/languagesbtn"/>
+            <Button
+                android:id="@+id/materialbtn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/mainpage_btn_heights"
+                android:background="@drawable/icematerialbtn"/>
+            <Button
+                android:id="@+id/successstorybtn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/mainpage_btn_heights"
+                android:background="@drawable/sucessstorybtn"/>
+            <Button
+                android:id="@+id/contactusbtn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/mainpage_btn_heights"
+                android:background="@drawable/contactusbtn"/>
+
+        </LinearLayout>
+</ScrollView>
+</RelativeLayout>

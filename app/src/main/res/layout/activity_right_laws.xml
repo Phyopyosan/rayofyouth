@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#003e79"
+        android:orientation="vertical"
+        tools:context=".activities.RightLawsActivity">
+
+
+        <Button
+            android:id="@+id/humanrightbtn"
+            android:layout_width="match_parent"
+            android:layout_marginTop="40dp"
+            android:layout_height="@dimen/mainpage_btn_heights"
+            android:background="@drawable/humanright"
+            />
+
+        <Button
+            android:id="@+id/crcbtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mainpage_btn_heights"
+            android:background="@drawable/crc"
+           />
+
+        <Button
+            android:id="@+id/childlawbtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mainpage_btn_heights"
+            android:background="@drawable/childlaw"
+            />
+        <Button
+            android:id="@+id/humanlawbtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mainpage_btn_heights"
+            android:background="@drawable/humanlaw"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

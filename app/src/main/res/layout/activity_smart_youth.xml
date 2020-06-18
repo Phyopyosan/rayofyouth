@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#003e79"
+    tools:context=".activities.SmartYouthActivity">
+     <include layout="@layout/toolbar"
+         android:id="@+id/smytb"/>
+
+        <ScrollView
+            android:layout_below="@+id/smytb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="25dp">
+
+                <ImageView
+                    android:id="@+id/myselfimg"
+                    android:layout_width="0dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="3"
+                    app:srcCompat="@drawable/myself" />
+                <ImageView
+                    android:id="@+id/communityimg"
+                    android:layout_width="0dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="3"
+                    app:srcCompat="@drawable/community" />
+
+                <ImageView
+                    android:id="@+id/socialimg"
+                    android:layout_width="0dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="3"
+                    app:srcCompat="@drawable/social" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/myselfbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="3"
+                    android:textSize="@dimen/font_size_smartyouth"
+                    android:text="Myself"/>
+                <Button
+                    android:id="@+id/communitybtn"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="3"
+                    android:textSize="@dimen/font_size_smartyouth"
+                    android:text="Community"/>
+                <Button
+                    android:id="@+id/socialbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="3"
+                    android:textSize="@dimen/font_size_smartyouth"
+                    android:text="Social Issue"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/lawimg"
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_weight="3"
+                    app:srcCompat="@drawable/laws" />
+                <ImageView
+                    android:id="@+id/leaderimg"
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_weight="6"
+                    app:srcCompat="@drawable/leadership" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/rightbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="3"
+                    android:textSize="@dimen/font_size_smartyouth"
+                    android:text="Rights/Laws"/>
+                <Button
+                    android:id="@+id/leadershipbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="6"
+                    android:textSize="@dimen/font_size_smartyouth"
+                    android:text="Leadership"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <ImageView
+                    android:id="@+id/activiyimg"
+                    android:layout_width="0dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="3"
+                    app:srcCompat="@drawable/activitymaker" />
+                <ImageView
+                    android:id="@+id/exerciseimg"
+                    android:layout_width="0dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="3"
+                    app:srcCompat="@drawable/exercise" />
+
+                <ImageView
+                    android:id="@+id/doimg"
+                    android:layout_width="0dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="3"
+                    app:srcCompat="@drawable/whatcanyoudo" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/activitymakerbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="3"
+                    android:textSize="@dimen/font_size_smartyouth"
+                    android:text="Activity Maker"/>
+                <Button
+                    android:id="@+id/exercisebtn"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="3"
+                    android:textSize="@dimen/font_size_smartyouth"
+                    android:text="Exercise"/>
+                <Button
+                    android:id="@+id/dobtn"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="3"
+                    android:textSize="@dimen/font_size_smartyouth"
+                    android:text="What can you do"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        </ScrollView>
+</RelativeLayout>
